@@ -30,32 +30,31 @@ export class HomeComponent implements OnInit {
       age:20,
       email: 'ejemplo2@ejemplo.com',
       friend:false,
-      uid:1
+      uid:2
     };
     let usuario3 : User = {
       nick:'Ernersto3',
       age:15,
       email: 'ejemplo3@ejemplo.com',
       friend:true,
-      uid:1
+      uid:3
     };
     let usuario4 : User = {
       nick:'Ernersto4',
       age:25,
       email: 'ejemplo4@ejemplo.com',
       friend:false,
-      uid:1
+      uid:4
     };
     let usuario5 : User = {
       nick:'Ernersto5',
       age:35,
       email: 'ejemplo5@ejemplo.com',
       friend:true,
-      uid:1
+      uid:5
     };
     this.friends= [usuario1,usuario2,usuario3,usuario4,usuario5]
     console.log(this.friends)
-
    }
 
   ngOnInit() {

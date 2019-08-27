@@ -11,11 +11,11 @@ import { ProfileComponent } from './profile/profile.component';
 import { RouterModule,Routes } from '@angular/router';
 import { MenuComponent } from './menu/menu.component';
 const appRoutes:Routes = [
-  {path:'',component:HomeComponent},
+  { path:'',component:HomeComponent},
   { path:'home',component:HomeComponent},
   { path:'login', component:LoginComponent},
-  {path: 'conversation',component:ConversationComponent},
-  {path: 'profile', component:ProfileComponent}
+  { path: 'conversation/:uid',component:ConversationComponent},
+  { path: 'profile', component:ProfileComponent}
 ];
 
 @NgModule({
