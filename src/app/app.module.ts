@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { ConversationComponent } from './conversation/conversation.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RouterModule,Routes } from '@angular/router';
+import { MenuComponent } from './menu/menu.component';
 const appRoutes:Routes = [
   {path:'',component:HomeComponent},
   { path:'home',component:HomeComponent},
@@ -27,7 +28,9 @@ const appRoutes:Routes = [
     HelloComponent, 
     LoginComponent,
     HomeComponent, 
-    ConversationComponent, ProfileComponent ],
+    ConversationComponent,
+    ProfileComponent, 
+    MenuComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
